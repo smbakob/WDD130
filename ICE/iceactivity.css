@@ -1,0 +1,10 @@
+h1, h2, h3, p, footer {
+    text-align: center;
+ }
+img {
+    width: 500px;
+}
+
+body {
+    background_color: rgb(59, 145, 198)
+}
