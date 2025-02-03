@@ -1,17 +1,60 @@
 body {
-    background-color: #f0f655
+    background-color: #335145;
 }
 
 header {
-    background-color: 
-    rgb(84, 179, 235);
-
+    background-color: #335145;
 }
 
-h1{
+h1 {
     font-size: 3em;
 }
 
 h2 {
-    /*font-size: 2.5em; */ font-size: 2.5em;
+    font-size: 2.5em;
+}
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+#background {
+    height: 725px;
+    background-color: #335145;
+}
+
+.logo, .icon {
+    width: 80px;
+}
+
+#hero-img {
+    width: 100%;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    font-size: 1.2em;
+}
+
+nav a,
+#hero-msg h1,
+#hero-msg h4,
+.button-box,
+main section {
+    text-align: center;
+}
+
+
+
+.book:hover, .join:hover {
+  
+    background-color: #1E352F;
 }
