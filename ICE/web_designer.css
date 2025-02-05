@@ -1,0 +1,14 @@
+* { 
+    box-sizing: border-box;
+    background-color: grey;
+}
+
+.circle { 
+    width: 350px;
+    border-radius: 50%;
+    border: 10px solid rgb(85,85,85);
+}
+
+.number-one {
+    width: 100%;
+}

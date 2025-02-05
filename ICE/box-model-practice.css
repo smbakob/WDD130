@@ -1,0 +1,46 @@
+* {box-sizing: border-box;}
+
+nav {
+    background-color: rgb(221, 188, 150);
+    padding: 25px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: 25px;
+}
+
+nav a :hover {
+    color: rgb(227, 227, 227);
+    background-color: black;
+}
+
+nav, footer { 
+    color: blanchedalmond;
+    background-color: rgba(165, 42, 42, 0.361);
+}
+
+h1 {
+    margin: 50px 0;
+    padding: 20px;
+}
+
+footer {
+    background-color: rgb(221, 188, 150)
+    color black;
+}
+
+footer p {
+    padding: 25px;
+    color:black;
+}
+
+img {
+    max-width: 1000px;
+    border: 8px solid salmon;
+    display: block;
+    margin: 0 auto;
+}
+

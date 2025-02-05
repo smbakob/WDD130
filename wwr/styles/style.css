@@ -3,7 +3,7 @@ body {
 }
 
 header {
-    background-color: #335145;
+    background-color: #BEEF9E ;
 }
 
 h1 {
@@ -21,7 +21,7 @@ h2 {
 
 #background {
     height: 725px;
-    background-color: #335145;
+    background-color: #BEEF9E ;
 }
 
 .logo, .icon {
@@ -56,5 +56,5 @@ main section {
 
 .book:hover, .join:hover {
   
-    background-color: #1E352F;
+    background-color: white;
 }
