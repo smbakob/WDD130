@@ -27,8 +27,8 @@ body {
 header {
 
     background-color: transparent;
-    display: flex;
-    grid-template-columns: 150px
+    display: grid;
+    grid-template-columns: 150px auto;
 }
 
 
@@ -89,6 +89,7 @@ nav a {
 .home-grid {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(9, 1fr);
 }
 
 #background {
