@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Beyond the Resume</title>
-    <link rel="stylesheet" href="personalproject.css">
-</head>
-<body>
+    <link rel="stylesheet" href="personalproject.css" />
+  </head>
+  <body>
     <header>
       <nav>
         <a href="life-on-paper.html">Life On Paper</a>
@@ -15,36 +15,53 @@
     </header>
 
     <div class="container">
+  
       <h1>A Resume is just paper — Here’s the story behind it</h1>
-        <div class="row">
-          <img class=pic1 src="picofme.jpeg" alt="pic1">
-          <img class=pic2 src="picofme2.jpeg" alt="pic2">
-          <img class=pic3 src="picofme3.jpeg" alt="pic3">
 
+      <div class="row">
+        <img class="pic1" src="picofme.jpeg" alt="pic1" />
+        <img class="pic2" src="picofme2.jpeg" alt="pic2" />
+        <img class="pic3" src="picofme3.jpeg" alt="pic3" />
+      </div>
 
-          </div>
+      <div class="row1">
+        <p>
+          Hi, I'm Syriana. This space is a little more personal. I’ve got
+          experience and skills, but there’s so much background to those things.
+          The way I grew up and my life has shaped me. Here you’ll see where I
+          came from and where I hope to go next. Maybe you’ll find something
+          here that inspires you too.
+        </p>
+      </div>
 
-        <div class="row1">
-            <p>Hi, I'm Syriana. This space is a little more personal. I’ve got experience and skills, but there’s so much background to those things. 
-            The way I grew up and my life has shaped me. Here you’ll see where I came from and where I hope to go next. 
-            Maybe you’ll find something here that inspires you too.</p>
+      <div class="row2">
+        <div class="popup" onclick="myFunction()">MAP
+          <span class="popuptext" id="myPopup"> Think of my journey as a roadmap tracing where I’ve been and where I’m
+            going.</span>
         </div>
+      
+      </div>
 
-        <div class="row2">
-            <p>Think of my journey as a roadmap tracing where I’ve been and where I’m going.</p>
-        </div>
-        
-        <img class="road" src="Drawing.sketchpad (1).png" alt="road">
+      <img class="book" src="booksymbol.jpeg" alt="book" />
 
-        <img class="book" src="booksymbol.jpeg" alt="book">
-
-        <div class="row3">
-            <p>We’re all stories in progress, here’s mine...</p>
-        </div>
+      <div class="row3">
+        <p>We’re all stories in progress, here’s mine...</p>
+      </div>
     </div>
 
     <footer>
-        <p>Footer Content</p>
+      <p>
+        Syriana Marie Ambre Mbakob | serenity to accept | courage to change |
+        wisdom to know
+      </p>
+      <nav><a href="site-plan.html">site plan</a></nav>
     </footer>
-</body>
+    <script>
+      // When the user clicks on <div>, open the popup
+      function myFunction() {
+        var popup = document.getElementById("myPopup");
+        popup.classList.toggle("show");
+      }
+      </script>
+  </body>
 </html>
