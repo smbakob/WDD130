@@ -12,7 +12,7 @@
     background-size: 50%;
     background-position: 40% 100%;
     background-repeat: no-repeat;
-    font-family: "Winky Sans", "Big Shoulders Inline";
+    font-family: "Wiky Sans", "Big Shoulders Inline";
     background-color: white;
     text-align: center;
     display: flex;
@@ -27,35 +27,39 @@
     width: 100%;
     justify-content: space-around;
     margin: 50px;
-    font-family: "Wiky Sans", "Big Shoulder Inline";
+    font-family: "Wiky Sans", sans-serif;
     }
     
     nav a {
+      display: flex;
+
     text-decoration: none;
     color: #EFF7CF;
-    margin: 20px;
-    font-size: 18px;
-    justify-content: space-between;
-    padding: 300px;
-    font-family: "WikySans";
-    font-size: 2em;
+    margin: 100px;
+    height: 10px;
+    font-size: 1.5em;
+    justify-content: space-evenly;
+    padding: 10px;
+    font-family: "Big Shoulders Inline", sans-serif;
+    display: inline-block;
     }
 
     nav a:hover {
         text-decoration: none;
         color: #420C14;
-        margin: 20px;
-        font-size: 18px;
+        margin: 100px;
+        height: 10px;
+        font-size: 1.5em;
         justify-content: space-between;
-        padding: 300px;
-        font-family: "WikySans";
-        font-size: 2em;
+        padding: 10px;
+        font-family: "Big Shoulders Inline", sans-serif;
+        display: inline-block;
         }
     
     .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    /* grid-template-rows: 1fr 1fr 1fr 1fr; */
+    font-family: "Big Shoulders Inline", sans-serif;
     gap: 20px;
     width: 100%;
     padding: 20px;
@@ -65,12 +69,12 @@
     .pic1 {
         grid-column: 1 / 2;
 
-        /* grid-row: 1 / 4; */
+        
     }
     
     .pic2 {
         grid-column: 2 / 3;
-        /* grid-row: 1 / 2; */
+        
     }
 
     .pic3 {
@@ -146,7 +150,7 @@
     text-align: center;
     justify-items: center;
     margin-top: 200px;
-    font-size: 3em;
+    font-size: 1.8em;
     margin-bottom: 100px;
     border-radius: 20px;
     transform: scale(1);
@@ -161,9 +165,10 @@
         justify-items: center;
         color: #420C14;
         margin-top: 200px;
-        font-size: 3em;
+        font-size: 1.8em;
         margin-bottom: 100px;
         border-radius: 20px;
+        font-family: "Winky Sans", sans-serif;
     }
 
     .row1 p, .row p {
@@ -185,7 +190,7 @@
     justify-content: space-between;
     position: relative;
     font-size: 1.3;
-    font-weight: 600;
+    ;
     
     }
 
@@ -211,9 +216,12 @@
         background-color: #420C14;
         border-radius: 10px;
         color: #EFF7CF;
+        font-family: "Big Shoulders Inline", sans-serif;
 
 
         }
+
+
 
         /* Popup container */
 .popup {
@@ -244,7 +252,7 @@
     padding: 20px; 
     width: 100%;
     height: auto;
-    font-size: 1em;
+    font-size: .8em;
     margin-right: 100px;
     margin-top: -200px; 
 
