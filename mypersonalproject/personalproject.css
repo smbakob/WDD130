@@ -27,7 +27,7 @@
     width: 100%;
     justify-content: space-around;
     margin-bottom: 50px;
-    font-family: "Wiky Sans", sans-serif;
+    font-family: "Big Shoulders Inline", sans-serif;
     }
     
     nav a {
@@ -190,7 +190,7 @@
     justify-content: space-between;
     position: relative;
     font-size: 1.3em;
-    ;
+    font-family: "Big Shoulders Inline", sans-serif;
     
     }
 
@@ -204,6 +204,7 @@
         justify-content: space-between;
         position: relative;
         font-size: 1.3em;
+        font-family: "Big Shoulders Inline", sans-serif;
         
         }
 
