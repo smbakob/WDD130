@@ -41,8 +41,8 @@ img {
   max-width: 300px;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--heading-font);
-  color: var(--headline-color-on-white);
+  font-family: "Big Shoulders Inline";
+  color: #420C14;
 }
 h2 {
   text-align: center;
@@ -50,21 +50,21 @@ h2 {
 hr {
   height: 3px;
   margin: 35px 0;
-  background: var(--accent1-color);
+  background-color: #EFF7CF;
 }
 header {
   padding: 1em;
   text-align: center;
-  color: var(--headline-color-on-color);
-  background-color: var(--paragraph-background-color);
+  color: #420C14;
+  background-color: #ABA361;
 }
 header > h1, header > h2 {
-  color: var(--headline-color-on-color);
+  color: #420C14;
 }
 
 p {
-  font-family: var(--paragraph-font);
-  color: var(--paragraph-color-on-white);
+  font-family: "Winky Sans";
+  color: #420C14;
   padding: 1em;
 }
 .colors {
@@ -82,25 +82,25 @@ p {
 }
 
 .primary {
-  background-color: var(--primary-color);
+  background-color: #420C14;
 }
 .secondary {
-  background-color: var(--secondary-color);
+  background-color: #ABA361;
 }
 .accent1 {
-  background-color: var(--accent1-color);
+  background-color: #EFF7CF;
 }
 .accent2{
-  background-color: var(--accent2-color);
+  background-color: black;
 }
 
 p.colored {
-  background-color: var(--paragraph-background-color);
-  color: var(--paragraph-color-on-color);
+  background-color: #ABA361;
+  color: #420C14;
 }
 
 nav {
-  background-color: var(--nav-background-color);
+  background-color: #ABA361;
   line-height: 3em;
   text-align: center;
   font-size: 1.2em;
@@ -118,11 +118,11 @@ nav a {
 
 }
 nav a:link, nav a:visited {
-  color: var(--nav-link-color);
+  color: #420C14;
 }
 nav a:hover {
-  color: var(--nav-hover-link-color);
-  background-color: var(--nav-hover-background-color);
+  color: #420C14;
+  background-color: #ABA361;
 }
 
 .sitemap {
